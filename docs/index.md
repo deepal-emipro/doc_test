@@ -1,0 +1,2 @@
+{:.no_toc}
+{% include_relative section_1/1.md %} {% include_relative section_2/2.md %} {% include_relative section_3/3.md %} {% include_relative section_4/4.md %} {% include_relative section_5/5.md %} {% include_relative section_6/6.md %} {% include_relative section_7/7.md %} {% include_relative section_8/8.md %} {% include_relative section_9/9.md %} {% include_relative section_10/10.md %} {% include_relative section_11/11.md %} {% include_relative section_12/12.md %} {% include_relative section_13/13.md %} {% include_relative section_14/14.md %} 

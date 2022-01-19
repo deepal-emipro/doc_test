@@ -1,0 +1,126 @@
+---
+---
+
+@import "{{ site.theme }}";
+ .div_ug_lf{
+	width: 400px;
+	height: calc(100vh - 295px);
+    top: 300px;
+    padding-top: 1rem;
+    padding-left: 2rem;
+	overflow-y: auto;
+    position: fixed;
+    left: 0;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+    padding-left: 0px;
+    background-color: white;
+    z-index: 10;
+    font-size: 0.875rem;
+    color: #7A436B;
+    font-weight: 400;
+    scrollbar-width: thin;
+    scrollbar-color: #603c5e transparent;
+    float: left;
+}
+.div_ug_rh {
+    float: left;
+    width: 66%;
+	left: 400px;
+	position: relative;
+	top: 300px;
+    z-index: 1;
+    padding: 0 15px;
+}
+/*#main-content .row {
+    width: 1170px;
+    margin-right: auto;
+    margin-left: auto;
+}*/
+.ept_cmp_logo{
+    float: left;
+    width: 150px !important;
+    max-width: 150px !important;
+    margin-left: 35px !important;
+    border: 0px solid #fff !important;
+}
+.doc_bg_container h3 {color: #fff;}
+.button-gradient-grey {
+   background: transparent;
+    border: 2px solid #fff;
+    padding: 0.6rem 2rem !important;
+    font-size: 16px;
+    text-transform: uppercase;
+    border-radius: 15px;
+    color: #fff;
+    margin-right: 25px;
+    vertical-align: middle;
+}
+.div_ug_lf ul li a {
+    text-transform: capitalize;
+    font-size: 16px;
+    line-height: 35px;
+    color: #000;
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.div_ug_lf ul li {list-style-type: none;}
+p{
+  font-size: 16px;
+  line-height: 170%;
+  word-spacing: 1px;
+  font-family: SourceSansPro-Light;
+}
+.main {
+    width: 100%;
+    display: inline-block;
+}
+.bg_image_docs {
+    width: 100%;
+    display: inline-block;
+    background-image: url(https://deepal-emipro.github.io/assets/images/background-docs.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 1em !important;
+    padding-bottom: 0em !important;
+    box-shadow: inset 0 0 40px -20px #444;
+    position: fixed;
+    z-index: 99;
+}
+.doc_bg_container img {
+    border-radius: 5px;
+    border: 1px solid #fff;
+    padding: 3px;
+    display: block;
+    margin: 0px auto;
+    clear: both;
+}
+.doc_bg_container h1, .doc_bg_container h4 {
+    color: #fff;
+}
+.doc_bg_container h1{
+    float: left;
+}
+.text-center {
+    text-align: center;
+}
+body h2 {
+    background: linear-gradient(to right, #083FDA, #087DDA);
+    padding: 15px;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 700;
+}
+body img {    max-width: 90% !important;cursor: pointer;}
+.info-note{
+	background: #eeeeee;
+    border: 1px solid #cccccc;
+    padding: 5px 10px;
+}
